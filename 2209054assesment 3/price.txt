@@ -1,0 +1,4 @@
+apple 10
+mango 20
+banana 5
+chocolate 50

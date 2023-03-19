@@ -1,0 +1,4 @@
+apple 100
+mango 90
+banana 120
+chocolate 200
