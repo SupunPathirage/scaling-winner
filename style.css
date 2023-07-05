@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+  
+/* navbar */
+  
+.navbar-nav{
+    margin-right: 0 !important;
+    padding-right: 100px;
+}
+  
+.navbar{
+    background-color: #030c1f;
+    color: white !important;
+}
+  
+.nav-item a{
+    color: white !important;
+}
+  
+.nav-item{
+    padding-left: 2px;
+}
+  
+.navbar-brand{
+    color: white !important;
+    padding-left: 100px;
+}
+  
+#navbar button{
+    color: white !important;
+}
+
+/* banner */
+  
+#banner-container{
+    background-color: #0a193d;
+    color: white!important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+      
+}
+ 
+#banner-row.img{
+    max-width: 60%;
+    height: 60%;
+    display: block;
+    padding-left: 5px;
+    
+}
+
+  
+#banner-row h3, p{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+  
+#banner-row a{
+    background-color: white !important;
+    color: black !important;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+      
+}
+#banner-col{
+    padding-left: 10px;
+}
+
+/* service */
+#service{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#services{
+max-width: 80%;
+height: 80%;
+display: block;
+padding-left: 5px;
+}
+#service h1{
+    padding-bottom: 70px;
+}
+  
+/* about */
+  
+/*start card 1111111111 ........... */
+#servicers{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto Condensed', sans-serif;
+
+}
+/*eliye sudu pasubima*/
+#servicers-body{
+    min-height: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+   }
+   /*alu pasubima*/
+.slide-container{
+    max-width: 1800px;
+    width: 100%;
+    background-color: gray;
+    padding: 40px 0;
+}
+/*slide eke dakune idan
+ wamaa gap eka*/
+.slide-content{
+    margin: 0 10px;
+    overflow: hidden;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+/*card eke palala hadima*/
+.card{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: white;
+}
+
+
+.image-content,.card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+    align-items: center;
+}
+.image-content{
+    row-gap: 5px;
+    position: relative;
+    padding: 25px 0;
+   
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #030c1f;
+}
+
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px 16px;
+    background-color: #4070f4;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all0.3s ease;
+    -webkit-transition: all0.3s ease;
+    -moz-transition: all0.3s ease;
+    -ms-transition: all0.3s ease;
+    -o-transition: all0.3s ease;
+}
+.button:hover{
+    background-color: #0a193d;
+
+}
+.overlay{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:#4070f4;
+    border-radius: 25px 25px 0 25px;
+    -webkit-border-radius: 25px 25px 0 25px;
+    -moz-border-radius: 25px 25px 0 25px;
+    -ms-border-radius: 25px 25px 0 25px;
+    -o-border-radius: 25px 25px 0 25px;
+}
+/*rathu kotuwata udin 
+nil pata chooti waka*/
+
+.overlay::before,
+.overlay::after{
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 40px;
+    background-color:#4070f4;
+    right: 0;
+    bottom: -40px;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    -webkit-border-radius: 0 25px 0 0;
+    -moz-border-radius: 0 25px 0 0;
+    -ms-border-radius: 0 25px 0 0;
+    -o-border-radius: 0 25px 0 0;
+    background-color:#4070f4;
+}
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: white;
+    padding: 3px;
+} 
+.card-image .card-img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     border: 4px solid #4070f4;
+}
+.swiper-navBtn{
+    color: #707070;
+    transform: color 0.3s ease;
+    -webkit-transform: color 0.3s ease;
+    -moz-transform: color 0.3s ease;
+    -ms-transform: color 0.3s ease;
+    -o-transform: color 0.3s ease;
+
+}
+
+
+
+/*iwarai ekat............................*/
+
+
+
+/*#about{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+  
+#about h1{
+    padding-bottom: 70px;
+}
+  
+#about-col ul{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+  
+#about-col ul li{
+    padding-top: 15px;
+      
+}*/
+
+/*product na*/
+  
+/* social */
+  
+#social{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+  
+#social h1{
+    padding-bottom: 70px;
+}
+  
+.social-col a:hover img{
+   transform: translateY(-10px);
+}
+  
+#social-row{
+    flex-direction: row;
+}
+  
+/* footer */
+  
+.mb-3{
+  padding-top: 10px;
+}
+  
+  
+/* media */
+@media only screen and (max-width: 987px){
+    .navbar-brand{
+        padding-left: 0px;
+    }
+}
+  
+@media only screen and (max-width: 768px){
+    #banner-row img{
+        padding-top: 20px;
+    }
+  
+   .social-col{
+       width: 33%;
+   }
+  
+}
+
+/*video*/
